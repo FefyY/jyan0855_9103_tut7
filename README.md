@@ -14,6 +14,9 @@ What I have found interesting is the glass-breaking effect in the UI which looks
 
 I have found two different ways to achieve similar effects on GitHub. 
 The first way is to cover a broken glass picture on the page at the location where the mouse is clicked. The new picture will then be drawn after three clicks. This is simple to achieve but impossible to make glass falling animation.
+
 The second way is better although it uses some techniques that we haven't learnt. It draws random length and weight straight lines from the mouse click location. At the end of that line, another line will be created and with a smaller weight. 
+
 [First way](https://github.com/3daddict/glass-shatter-effect)
+
 [Second way](https://github.com/leils/shatter-sim)
