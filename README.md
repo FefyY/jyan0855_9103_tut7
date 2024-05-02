@@ -1,36 +1,19 @@
 # jyan0855_9103_tut7
 
-My repository YO!
 
-# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
 
-**Bold Text** or __Bold Text__
-*Italic Text* or _Italic Text_
+## 1.Imaging Technique Inspiration
 
-- Item 1
-- Item 2
-  - Subitem 2.1
-  - Subitem 2.2
+My idea was inspired by the UI of a game called Persona 5. The game is famous for its smooth UI and unique art style. Here is a short video showing the menu UI for the game.[The Showcase for Persona 5 UI](https://www.youtube.com/watch?v=VqJnmphV9R8)
+What I have found interesting is the glass-breaking effect in the UI which looks really smooth for changing between two pages. This could be a useful animation for switching different pages in the project.
+![An image](assets/Shatter.PNG)
+![An image](assets/Shatter2.PNG)
 
-  1. First Item
-2. Second Item
-3. Third Item
 
-[Link Text](https://www.google.com)
+## 2.Coding Technique Exploration
 
-![An image of a cat](http://placekitten.com/200/300)
-
-![An image of the Mona Lisa](readmeImagesMona_Lisa0.jpg)
-
-```js
-function helloWorld() {
-console.log("Hello, world!");
-}
-```
-
->Block quote
+I have found two different ways to achieve similar effects on GitHub. 
+The first way is to cover a broken glass picture on the page at the location where the mouse is clicked. The new picture will then be drawn after three clicks. This is simple to achieve but impossible to make glass falling animation.
+The second way is better although it uses some techniques that we haven't learnt. It draws random length and weight straight lines from the mouse click location. At the end of that line, another line will be created and with a smaller weight. 
+[First way](https://github.com/3daddict/glass-shatter-effect)
+[Second way](https://github.com/leils/shatter-sim)
